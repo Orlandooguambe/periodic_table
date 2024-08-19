@@ -20,12 +20,12 @@ else
     echo "$ELEMENT" | while IFS="|" read ATOMIC_NUMBER NAME SYMBOL TYPE ATOMIC_MASS MELTING_POINT BOILING_POINT
     do
       echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $ATOMIC_MASS amu. $NAME has a melting point of $MELTING_POINT celsius and a boiling point of $BOILING_POINT celsius."
-    #done
+    done
   fi
 fi
 
-git branch -m master main
+#git branch -m master main
 
-git remote set-url origin https://github.com/Orlandooguambe/periodic_table.git
-git push -u origin main
+#git remote set-url origin https://github.com/Orlandooguambe/periodic_table.git
+#git push -u origin main
 
